@@ -1,4 +1,7 @@
 # Power BI HR Analytics Dashboard
+Project Summary  
+A concise executive overview of the project is available in:  
+docs/project_summary.pdf
 
 ## Project Overview
 This project presents an end-to-end HR analytics solution built using Power BI.
