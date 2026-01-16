@@ -1,111 +1,97 @@
-# HR Analytics Decision Support Dashboard (Power BI)
+# Power BI HR Analytics Dashboard
 
 ## Project Overview
-This project presents an HR Analytics dashboard designed to support executive and operational decision-making using data-driven insights.  
-The dashboard focuses on workforce performance, attrition risk, and employee engagement, enabling HR leaders to identify issues early and take proactive action.
+This project presents an end-to-end HR analytics solution built using Power BI.
+It is designed to support executive decision-making by providing clear insights into
+workforce performance, attrition risk, attendance stability, and employee engagement.
 
-The project demonstrates my ability to:
-- Translate business and organizational problems into analytical solutions
-- Design executive-level dashboards that support decision-making
-- Connect HR metrics with strategic outcomes
-- Communicate insights clearly to non-technical stakeholders
+The dashboard transforms raw HR data into actionable intelligence for leadership,
+HR strategy teams, and policy-level decision makers.
 
 ---
 
-## Problem Statement
-Organizations often struggle to understand the underlying drivers of employee turnover, performance gaps, and workforce inefficiencies.  
-Traditional HR reporting focuses on descriptive metrics without providing actionable insights.
-
-This project addresses the question:
-**How can HR leaders use data to reduce attrition, improve performance, and optimize workforce planning?**
-
----
-
-## Why This Matters
-- High employee turnover increases operational costs and disrupts productivity
-- Workforce performance directly impacts organizational outcomes
-- Data-driven HR decisions improve retention, engagement, and planning accuracy
-
-This dashboard enables HR teams to move from reactive reporting to proactive decision-making.
+## Business Objectives
+- Monitor workforce stability and attendance risk
+- Identify attrition patterns across departments
+- Evaluate employee performance and training effectiveness
+- Support data-driven HR and workforce planning decisions
 
 ---
 
-## Data Description
-**Source:** HR operational dataset (anonymized)  
-**Records:** Hundreds of employee records  
-**Key Features:**
-- Department and job role
-- Attendance and overtime
-- Performance scores
-- Training hours
-- Employee tenure
-- Attrition indicators
+## Dashboard Pages
 
-**Data Challenges:**
-- Missing values in performance and training data
-- Inconsistent categorical values
-- Potential bias in self-reported metrics
+### 1. HR Executive KPI Dashboard
+![HR Executive KPI Dashboard](screenshots/HR%20Executive%20KPI%20Dashboard.png)
 
----
+**Purpose:**  
+Provides a high-level executive summary of workforce health.
 
-## Methodology
-### Data Preparation
-- Data cleaning and validation
-- Standardization of categorical variables
-- KPI definition aligned with HR objectives
-
-### Dashboard Design
-- Interactive Power BI visuals
-- KPI cards for executive overview
-- Drill-down analysis by department and role
-- Trend analysis for attrition and performance
+**Key Metrics:**
+- Total Employees
+- Attrition Rate
+- Average Satisfaction
+- Average Salary
+- Average Performance Score
 
 ---
 
-## Key Insights & Recommendations
-- Departments with higher overtime show increased attrition rates  
-  → **Recommendation:** Balance workload and review staffing levels
+### 2. Attrition Count & Rate Analysis
+![Attrition Count & Rate](screenshots/Attrition%20Count%20%26%20Rate.png)
 
-- Employees with lower training hours tend to have weaker performance scores  
-  → **Recommendation:** Implement targeted upskilling programs
+**Purpose:**  
+Analyzes employee attrition trends across departments.
 
-- Attrition is highest among employees with tenure below two years  
-  → **Recommendation:** Improve onboarding and early engagement strategies
-
----
-
-## Business Value
-This dashboard can be used as a **decision-support tool** to:
-- Monitor workforce health
-- Identify attrition risks early
-- Support HR policy design
-- Improve workforce planning and resource allocation
+**Insights:**
+- Departments with highest attrition exposure
+- Relationship between satisfaction and attrition
+- Risk signals for workforce churn
 
 ---
 
-## Limitations
-- The analysis is based on historical data
-- External factors (market conditions, compensation benchmarks) are not included
-- Predictive modeling is not implemented in the current version
+### 3. Performance & Training Analysis
+![Performance Rating](screenshots/Performance%20Rating.png)
+
+**Purpose:**  
+Evaluates employee performance in relation to training investment.
+
+**Insights:**
+- High performers by department
+- Training hours vs performance outcomes
+- Effectiveness of learning programs
 
 ---
 
-## Future Enhancements
-- Integrate machine learning models to predict attrition risk
-- Forecast workforce demand by department
-- Deploy the dashboard with real-time data connections
-- Extend insights using explainable AI techniques
+### 4. Workforce Stability & Attendance Risk Analysis
+![Workforce Stability](screenshots/Workforce%20Stability%20%26%20Attendance%20Risk%20Analy.png)
+
+**Purpose:**  
+Monitors attendance patterns, absenteeism, and operational workforce risk.
+
+**Insights:**
+- High absence risk employees
+- Overtime and workload pressure
+- Absenteeism rate by department
+- Workforce stability indicators
 
 ---
 
 ## Tools & Technologies
 - Power BI
-- Power Query
 - DAX
-- Excel / CSV data sources
+- Power Query
+- HR Analytics & Workforce Metrics
+
+---
+
+## Key Skills Demonstrated
+- HR analytics & workforce intelligence
+- Executive dashboard design
+- KPI modeling and DAX measures
+- Translating data into decision-ready insights
+- Risk and performance monitoring
 
 ---
 
 ## Author
 **Lama Turki**  
-Data Scientist | Analytics & Forecasting  
+Data Scientist | Analytics, Forecasting & Decision Support
